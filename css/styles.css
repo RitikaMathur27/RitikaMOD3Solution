@@ -11,8 +11,10 @@ body {
 
 h1 {
     font-family: Brushstroke, fantasy;
+    font-weight: bold;
     color: #000000;
     text-align: center;
+    padding: 10px;
 }
 
 
@@ -86,6 +88,7 @@ section {
 
 .row {
     width: 100%;
+    padding:10px;
 }
 
 /* Desktop view */
