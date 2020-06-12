@@ -4,14 +4,13 @@
 
 body {
     font-family: arial sans-serif;
-    background-color: #fab1a0;
+    background-color: #428bca;
     padding: 0;
     margin: 0;
 }
 
 h1 {
     font-family: Brushstroke, fantasy;
-    font-weight: bold;
     color: #000000;
     text-align: center;
     padding: 10px;
@@ -24,23 +23,26 @@ p {
 }
 
 .container {
-    border: none;
+    border: 2px solid #3F0C1F;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
+    box-shadow: 0 0 50px #3F0C1F;
+    background-color: #fab1a0;
 }
 
 section {
     border: 1px solid black;
-    background-color: #00FF99;
+    background-color: #ff9ff3;
     width: 100%;
     height: 200px;
     font-family: Helvetica;
     color: black;
     position: relative;
     overflow: auto;
+    margin-bottom: 10px;
 }
 
 #chicken {
@@ -88,7 +90,7 @@ section {
 
 .row {
     width: 100%;
-    padding:10px;
+    padding: 10px;
 }
 
 /* Desktop view */
@@ -226,6 +228,9 @@ section {
     width: 100%;
   }
 }
+
+
+
 
 
 
